@@ -1,18 +1,11 @@
-# paddle-mobile-demo
-a simple paddle-mobile-demo
+# paddle-mobile
+基于paddle-mobile的安卓部署
 
-- [Android CPU](https://github.com/xiebaiyuan/paddle-mobile-demo/blob/master/android/CPU/paddle_mobile_android/README.md)
 
-### android cpu demo 演示了Paddle Mobile 在Android平台上粗分类的应用.
+## paddle-mobile的预训练模型进行照片分类的应用.
 
-#### 编译步骤
-1. clone 仓库
-2. 打开Android Studio
-3. "open an existing Android Studio Project"
-4. 目录中选择 paddle-mobile-demo/android/CPU/paddle_mobile_android/
-5. run and enjoy it
 
-#### 主要类说明
+### 主要类说明
 
 ``` java
  /**
@@ -34,4 +27,11 @@ class MainActivity : Activity(){}
 
 ```
 
+#### 后续更新
+不知道TensorFlow lite可不可以用相同方法编译
+看起来模型编译完是独立的,我猜不同框架不会打架
+and 最近更新了yolov3模型 据说更快 想白嫖
 
+##### 终章
+等我的iphone12到货了我可能就不会再玩这个项目了...
+安卓太难了...我不配...
